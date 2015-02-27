@@ -1,0 +1,23 @@
+Package: WRScppLin
+Type: Package
+Title: C++ sub-routines for the R package WRS
+Version: 1.0
+Date: 2013-07-18
+Author: Rand Wilcox, Xiao He
+Maintainer: Joe Johnston <jjohnsto@cityu.edu.hk>
+Description: This package contains C++ implementations of iterative routines originally coded in R. These sub-routines provide substantial performance boosts. This is a build for Linux.
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.10.2), RcppArmadillo (>= 0.3.900.0), MASS (>=
+        7.3-27), scatterplot3d (>= 0.3-33)
+LinkingTo: Rcpp, RcppArmadillo, MASS, scatterplot3d
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: WRScppLin
+RemoteUsername: JoeJohnston
+RemoteRef: master
+RemoteSha: 97eb4948e822edb6b1ea7dfaccef4cf50294efac
+GithubRepo: WRScppLin
+GithubUsername: JoeJohnston
+GithubRef: master
+GithubSHA1: 97eb4948e822edb6b1ea7dfaccef4cf50294efac
+Built: R 3.0.2; x86_64-pc-linux-gnu; 2015-02-27 14:16:54 UTC; unix
