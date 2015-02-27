@@ -9,15 +9,7 @@ Windows binaries are available [here](http://github.com/mrxiaohe/WRScppWIN).
 
 ###[Installation]
 #### Install Development Packages
-These are source files and you need development files to compile from source.
-On Mint/Ubuntu, you can use 
-
-      sudo apt-get install r-base-dev
-
-to get these. See the [Rcpp FAQ](http://dirk.eddelbuettel.com/code/rcpp/Rcpp-FAQ.pdf) for more infomation.
-Note that I have not tried to compile this on Mac or Windows. See above for those files.
-
-Also, there are likely some dependencies I have already installed and are forgetting about. YMMV.
+These are on Mint/Ubuntu 64-bit. If you need a 32-bit version, try compiling from source [here](https://github/JoeJohnston/WRScppLin)
 
 #### To install this package, four R packages are required:
 
@@ -31,8 +23,7 @@ Also, there are likely some dependencies I have already installed and are forget
 ####Next, load devtools and install WRScppLin from source:
 
     library("devtools")
-    install_github(repo="JoeJohnston/WRScppLin")  
-
+    install_github(repo="JoeJohnston/WRScppLin64")  
 
 ###[Some examples]
 
